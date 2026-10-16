@@ -1,3 +1,3 @@
-# Lumen
+# Deploy Trigger
 
-Analytics dashboard.
+This file was added to trigger a fresh Vercel deployment.
