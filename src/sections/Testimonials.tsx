@@ -1,7 +1,7 @@
 import Card from '../components/Card'
 
 const QUOTES = [
-  { quote: 'Lumen replaced three tools for us. We finally have one place to see the whole funnel.', name: 'Maya Chen', role: 'Head of Product, Northwind' },
+  { quote: 'Nikhil replaced three tools for us. We finally have one place to see the whole funnel.', name: 'Maya Chen', role: 'Head of Product, Northwind' },
   { quote: 'The realtime events are a game changer. We catch issues before users even report them.', name: 'Daniel Okafor', role: 'CTO, Brightline' },
   { quote: 'Setup took five minutes. The insights started flowing immediately. Incredible product.', name: 'Sofia Reyes', role: 'Growth Lead, Loopwork' },
 ]

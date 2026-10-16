@@ -9,9 +9,9 @@ export default function Hero() {
         <div className="hero__content">
           <span className="hero__badge"><span className="hero__dot" aria-hidden="true" />New: Session Replay is live</span>
           <h1 className="hero__title">Understand your product, <span className="hero__accent">in real time.</span></h1>
-          <p className="hero__sub">Lumen turns raw product events into clear, actionable insights. Track funnels, retention, and user behavior — no SQL required.</p>
+          <p className="hero__sub">Nikhil turns raw product events into clear, actionable insights. Track funnels, retention, and user behavior — no SQL required.</p>
           <div className="hero__cta">
-            <Button size="lg" onClick={() => push('success', 'Welcome to Lumen! Your workspace is being prepared.')}>Start free trial</Button>
+            <Button size="lg" onClick={() => push('success', 'Welcome to Nikhil! Your workspace is being prepared.')}>Start free trial</Button>
             <Button size="lg" variant="secondary" onClick={() => document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' })}>See how it works</Button>
           </div>
           <p className="hero__note">Free 14-day trial · No credit card required</p>
@@ -21,7 +21,7 @@ export default function Hero() {
           <div className="dashboard">
             <div className="dashboard__bar">
               <span className="dashboard__dots"><i /><i /><i /></span>
-              <span className="dashboard__title">Lumen · Overview</span>
+              <span className="dashboard__title">Nikhil · Overview</span>
               <span className="dashboard__live">● Live</span>
             </div>
             <div className="dashboard__body">

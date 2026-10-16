@@ -1,5 +1,5 @@
 const STEPS = [
-  { n: '01', title: 'Install the snippet', desc: 'Drop one line of code into your app. Lumen starts capturing events instantly.' },
+  { n: '01', title: 'Install the snippet', desc: 'Drop one line of code into your app. Nikhil starts capturing events instantly.' },
   { n: '02', title: 'Define your events', desc: 'Track clicks, signups, and conversions with auto-capture or custom events.' },
   { n: '03', title: 'Explore insights', desc: 'Build funnels, cohorts, and dashboards to answer any product question.' },
 ]

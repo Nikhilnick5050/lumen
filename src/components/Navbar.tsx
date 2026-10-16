@@ -30,11 +30,11 @@ export default function Navbar() {
   return (
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="container navbar__inner">
-        <a href="#home" className="navbar__brand" aria-label="Lumen home">
+        <a href="#home" className="navbar__brand" aria-label="Nikhil home">
           <span className="navbar__logo" aria-hidden="true">
             <svg viewBox="0 0 32 32" width="26" height="26"><rect width="32" height="32" rx="7" fill="#34D399"/><path d="M9 22V10l7 8 7-8v12" stroke="#052e1f" strokeWidth="2.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/></svg>
           </span>
-          <span className="navbar__name">Lumen</span>
+          <span className="navbar__name">Nikhil</span>
         </a>
 
         <nav className="navbar__nav" aria-label="Primary">

@@ -1,4 +1,4 @@
-# Lumen
+# Nikhil
 
 Real-time product analytics and insights for modern teams.
 
