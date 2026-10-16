@@ -5,7 +5,7 @@ import Button from './Button'
 const LINKS = [
   { label: 'Home', href: '#home' },
   { label: 'Features', href: '#features' },
-  { label: 'Pricing', href: '#pricing' },
+  { label: 'Pricing', href: '#/pricing' },
   { label: 'About', href: '#about' },
   { label: 'Contact', href: '#contact' },
 ]
@@ -50,7 +50,7 @@ export default function Navbar() {
             )}
           </button>
           <a href="#login" className="navbar__login">Login</a>
-          <Button size="sm" onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}>Get Started</Button>
+          <Button size="sm" onClick={() => { window.location.hash = '#/pricing' }}>Get Started</Button>
           <button className="hamburger" onClick={() => setOpen((o) => !o)} aria-label="Toggle menu" aria-expanded={open}>
             <span className={`hamburger__bar ${open ? 'is-open' : ''}`} />
           </button>
@@ -61,7 +61,7 @@ export default function Navbar() {
         <nav aria-label="Mobile">
           {LINKS.map((l) => <a key={l.href} href={l.href} className="mobile-menu__link" onClick={() => setOpen(false)}>{l.label}</a>)}
           <a href="#login" className="mobile-menu__link" onClick={() => setOpen(false)}>Login</a>
-          <Button fullWidth onClick={() => { setOpen(false); document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' }) }}>Get Started</Button>
+          <Button fullWidth onClick={() => { setOpen(false); window.location.hash = '#/pricing' }}>Get Started</Button>
         </nav>
       </div>
     </header>
